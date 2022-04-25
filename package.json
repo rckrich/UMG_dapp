@@ -1,5 +1,5 @@
 {
-  "homepage": "http://rckrich.github.io/UMG_dapp",
+  "homepage": "https://rckrich.github.io/UMG_dapp",
   "name": "umg-web3-react",
   "version": "0.1.0",
   "private": true,
@@ -17,9 +17,9 @@
     "web3": "^1.7.1"
   },
   "scripts": {
-    "start": "react-app-rewired start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject"
