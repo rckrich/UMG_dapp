@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/UMG_dapp/static/css/main.ae04d898.css",
+    "main.js": "/UMG_dapp/static/js/main.1f2c0168.js",
+    "static/media/font-icons.svg": "/UMG_dapp/static/media/font-icons.75d13799bee3b11e815e.svg",
+    "static/media/font-icons.eot": "/UMG_dapp/static/media/font-icons.3ce6b901187052bb6633.eot",
+    "static/media/font-icons.woff": "/UMG_dapp/static/media/font-icons.e35b9be4b964a22f79e3.woff",
+    "static/media/font-icons.ttf": "/UMG_dapp/static/media/font-icons.c46dad1740ca3171b16d.ttf",
+    "static/media/lined-icons.svg": "/UMG_dapp/static/media/lined-icons.20500dd11595cb65c0d5.svg",
+    "static/media/Simple-Line-Icons.svg": "/UMG_dapp/static/media/Simple-Line-Icons.020f280b83f405cb4ac1.svg",
+    "static/media/lined-icons.eot": "/UMG_dapp/static/media/lined-icons.82032352f6e08b98db21.eot",
+    "static/media/lined-icons.woff": "/UMG_dapp/static/media/lined-icons.129541814cb20025e84b.woff",
+    "static/media/lined-icons.ttf": "/UMG_dapp/static/media/lined-icons.22fb72dc9cc86f669636.ttf",
+    "static/media/parallax-bg.jpg": "/UMG_dapp/static/media/parallax-bg.1278c97b76e8f0871de5.jpg",
+    "static/media/UMG-Logo-White.png": "/UMG_dapp/static/media/UMG-Logo-White.f4a098262f7b52d66b21.png",
+    "static/media/pattern.png": "/UMG_dapp/static/media/pattern.0322e52ee5e437901cd7.png",
+    "static/media/Simple-Line-Icons.woff": "/UMG_dapp/static/media/Simple-Line-Icons.d25156c933f09bb78bba.woff",
+    "static/media/Simple-Line-Icons.eot": "/UMG_dapp/static/media/Simple-Line-Icons.37c20767490388888f44.eot",
+    "static/media/Simple-Line-Icons.ttf": "/UMG_dapp/static/media/Simple-Line-Icons.549254fc1514a6148dbf.ttf",
+    "index.html": "/UMG_dapp/index.html",
+    "static/media/iconalt.svg": "/UMG_dapp/static/media/iconalt.c01648798f8b1fa9a04e.svg",
+    "main.ae04d898.css.map": "/UMG_dapp/static/css/main.ae04d898.css.map",
+    "main.1f2c0168.js.map": "/UMG_dapp/static/js/main.1f2c0168.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae04d898.css",
+    "static/js/main.1f2c0168.js"
+  ]
+}
