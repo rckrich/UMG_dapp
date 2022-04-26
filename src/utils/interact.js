@@ -1,6 +1,8 @@
 import Web3 from 'web3';
 import { ethers } from 'ethers'
 
+const GAS_LIMIT_PER = 200000;
+
 const contractABI = require('../contract-abi.json')
 const contractAddress = "0xd83EC91C9936E08796CaD4d05977E8f4aC6D74C1";
 
@@ -11,7 +13,7 @@ export const connectWallet = async () => {
                 method: "eth_requestAccounts",
             });
             const obj = {
-                status: "👆🏽 Write a message in the text-field above.",
+                status: "👆🏽 Write how many unicorns do you want in the text-field above.",
                 address: addressArray[0],
             };
             return obj;
@@ -49,7 +51,7 @@ export const getCurrentWalletConnected = async () => {
             if (addressArray.length > 0) {
                 return {
                     address: addressArray[0],
-                    status: "👆🏽 Write a message in the text-field above.",
+                    status: "👆🏽 Write how many unicorns do you want in the text-field above.",
                 };
             } else {
                 return {
@@ -82,27 +84,6 @@ export const getCurrentWalletConnected = async () => {
     }
 };
 
-export const getTokenURI = async (tokenID) => {
-    if (window.ethereum) {
-        const web3 = new Web3(Web3.givenProvider || "http://localhost:8545");
-        window.contract = await new web3.eth.Contract(contractABI, contractAddress);//loadContract();
-        try {
-            const tokenURI = await window.contract.methods.tokenURI(tokenID).call();
-            const obj = {
-                status: "Got the tokenURI from: " + tokenID,
-                tokenURI: tokenURI,
-            };
-            return obj;
-        } catch (error) {
-            const tokenURI = "Could not get tokenURI";
-            return {
-                status: "😥 Something went wrong: " + error.message,
-                tokenURI: tokenURI,
-            }
-        }
-    }
-};
-
 export const mint = async (quantity) => {
     if (window.ethereum) {
 
@@ -123,12 +104,14 @@ export const mint = async (quantity) => {
             price = etherValue * quantity;
         });
 
-        const parsedPrice = ethers.utils.parseEther(price.toString())
+        const parsedPrice = ethers.utils.parseEther(price.toString());
+        const gaslimitValue = GAS_LIMIT_PER * quantity;
 
         const transactionParameters = {
             to: contractAddress, // Required except during contract publications.
             from: window.ethereum.selectedAddress, // must match user's active address.
             value: parsedPrice._hex,
+            gasLimit: gaslimitValue,
             data: window.contract.methods
                 .mint(quantity)
                 .encodeABI(),
