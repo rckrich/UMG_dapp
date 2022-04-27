@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/mint/static/css/main.0c7769ab.css",
-    "main.js": "/mint/static/js/main.735c4a0e.js",
-    "static/media/font-icons.svg": "/mint/static/media/font-icons.75d13799bee3b11e815e.svg",
-    "static/media/font-icons.eot": "/mint/static/media/font-icons.3ce6b901187052bb6633.eot",
-    "static/media/font-icons.woff": "/mint/static/media/font-icons.e35b9be4b964a22f79e3.woff",
-    "static/media/font-icons.ttf": "/mint/static/media/font-icons.c46dad1740ca3171b16d.ttf",
-    "static/media/lined-icons.svg": "/mint/static/media/lined-icons.20500dd11595cb65c0d5.svg",
-    "static/media/Simple-Line-Icons.svg": "/mint/static/media/Simple-Line-Icons.020f280b83f405cb4ac1.svg",
-    "static/media/lined-icons.eot": "/mint/static/media/lined-icons.82032352f6e08b98db21.eot",
-    "static/media/lined-icons.woff": "/mint/static/media/lined-icons.129541814cb20025e84b.woff",
-    "static/media/lined-icons.ttf": "/mint/static/media/lined-icons.22fb72dc9cc86f669636.ttf",
-    "static/media/parallax-bg.jpg": "/mint/static/media/parallax-bg.1278c97b76e8f0871de5.jpg",
-    "static/media/UMG-Logo-White.png": "/mint/static/media/UMG-Logo-White.f4a098262f7b52d66b21.png",
-    "static/media/pattern.png": "/mint/static/media/pattern.0322e52ee5e437901cd7.png",
-    "static/media/Simple-Line-Icons.woff": "/mint/static/media/Simple-Line-Icons.d25156c933f09bb78bba.woff",
-    "static/media/Simple-Line-Icons.eot": "/mint/static/media/Simple-Line-Icons.37c20767490388888f44.eot",
-    "static/media/Simple-Line-Icons.ttf": "/mint/static/media/Simple-Line-Icons.549254fc1514a6148dbf.ttf",
-    "index.html": "/mint/index.html",
-    "static/media/iconalt.svg": "/mint/static/media/iconalt.c01648798f8b1fa9a04e.svg",
-    "main.0c7769ab.css.map": "/mint/static/css/main.0c7769ab.css.map",
-    "main.735c4a0e.js.map": "/mint/static/js/main.735c4a0e.js.map"
+    "main.css": "/static/css/main.ad5e03b1.css",
+    "main.js": "/static/js/main.63fc49fd.js",
+    "static/media/font-icons.svg": "/static/media/font-icons.75d13799bee3b11e815e.svg",
+    "static/media/font-icons.eot": "/static/media/font-icons.3ce6b901187052bb6633.eot",
+    "static/media/font-icons.woff": "/static/media/font-icons.e35b9be4b964a22f79e3.woff",
+    "static/media/font-icons.ttf": "/static/media/font-icons.c46dad1740ca3171b16d.ttf",
+    "static/media/lined-icons.svg": "/static/media/lined-icons.20500dd11595cb65c0d5.svg",
+    "static/media/Simple-Line-Icons.svg": "/static/media/Simple-Line-Icons.020f280b83f405cb4ac1.svg",
+    "static/media/lined-icons.eot": "/static/media/lined-icons.82032352f6e08b98db21.eot",
+    "static/media/lined-icons.woff": "/static/media/lined-icons.129541814cb20025e84b.woff",
+    "static/media/lined-icons.ttf": "/static/media/lined-icons.22fb72dc9cc86f669636.ttf",
+    "static/media/parallax-bg.jpg": "/static/media/parallax-bg.1278c97b76e8f0871de5.jpg",
+    "static/media/UMG-Logo-White.png": "/static/media/UMG-Logo-White.f4a098262f7b52d66b21.png",
+    "static/media/pattern.png": "/static/media/pattern.0322e52ee5e437901cd7.png",
+    "static/media/Simple-Line-Icons.woff": "/static/media/Simple-Line-Icons.d25156c933f09bb78bba.woff",
+    "static/media/Simple-Line-Icons.eot": "/static/media/Simple-Line-Icons.37c20767490388888f44.eot",
+    "static/media/Simple-Line-Icons.ttf": "/static/media/Simple-Line-Icons.549254fc1514a6148dbf.ttf",
+    "index.html": "/index.html",
+    "static/media/iconalt.svg": "/static/media/iconalt.c01648798f8b1fa9a04e.svg",
+    "main.ad5e03b1.css.map": "/static/css/main.ad5e03b1.css.map",
+    "main.63fc49fd.js.map": "/static/js/main.63fc49fd.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c7769ab.css",
-    "static/js/main.735c4a0e.js"
+    "static/css/main.ad5e03b1.css",
+    "static/js/main.63fc49fd.js"
   ]
 }
