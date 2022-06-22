@@ -4,7 +4,7 @@ import { ethers } from 'ethers'
 const GAS_LIMIT_PER = 200000;
 
 const contractABI = require('../contract-abi.json')
-const contractAddress = "0xd83EC91C9936E08796CaD4d05977E8f4aC6D74C1";
+const contractAddress = "0x94D89A3647dFC82BF0207560FD6354B070276b77";
 
 export const connectWallet = async () => {
     if (window.ethereum) {
@@ -129,7 +129,7 @@ export const mint = async (quantity) => {
                         <p>
                             {" "}
                             ✅{" "}
-                            <a target="_blank" rel="noreferrer" href={`https://rinkeby.etherscan.io/tx/` + txHash}>
+                            <a target="_blank" rel="noreferrer" href={`https://etherscan.io/tx/` + txHash}>
                                 Check out your transaction on Etherscan by clicking here!
                                 <br />
                                 <span>Your transaction: {String(txHash).substring(0, 15) +
